@@ -13,5 +13,7 @@ for i in num:
     except:
         pass
 
-palindromos.sort()
-print("Los siguientes numeros son palindromos!: " + str(palindromos))
+result = list(map(int, palindromos))
+result.sort()
+
+print("Los siguientes numeros son palindromos!: " + str(result))
